@@ -8,8 +8,8 @@ public class LocalAuthResponseDto {
   private final String email;
   private final String name;
 
-  public LocalAuthResponseDto(Auth response) {
-    this.email = response.getEmail();
-    this.name = response.getName();
+  public LocalAuthResponseDto(Auth auth) {
+    this.email = auth.getEmail();
+    this.name = auth.getName();
   }
 }

@@ -7,19 +7,25 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import com.example.study.test2.dto.AuthRequestDto;
 import com.example.study.test2.dto.LocalAuthResponseDto;
+import com.example.study.test2.dto.GoogleAuthResponseDto;
 import com.example.study.test2.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
-  private AuthService authService;
+  private final AuthService authService;
 
-  @PostMapping("/{provider}")
-  public LocalAuthResponseDto createMember(@PathVariable String provider, @RequestBody AuthRequestDto authRequestDto) {
-    if(provider.equals("LOCAL")) {
-      return authService.createLocal(authRequestDto);
-    }
+  public AuthController(AuthService authService) {
+    this.authService = authService;
+  }
 
+  @PostMapping("/{provider:^LOCAL$}")
+  public LocalAuthResponseDto createLocalMember(@PathVariable String provider, @RequestBody AuthRequestDto authRequestDto) {
+    return authService.createLocal(authRequestDto);
+  }
+
+  @PostMapping("/{provider:^GOOGLE&}")
+  public GoogleAuthResponseDto createGoogleMember(@PathVariable String provider, @RequestBody AuthRequestDto authRequestDto) {
     return authService.createGoogle(authRequestDto);
   }
 }

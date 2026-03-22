@@ -21,7 +21,7 @@ public class Auth {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-  @Column(nullable = false) // 구글 로그인 대비
+  @Column(nullable = true) // 구글 로그인 대비
   private String email;
 
   private String password;
@@ -29,9 +29,11 @@ public class Auth {
   private String name;
 
   @Enumerated(EnumType.STRING)
+  @Column(nullable = false)
   private AuthProvider provider;
 
   @Enumerated(EnumType.STRING)
+  @Column(nullable = false)
   private UserRole role;
 
   @CreationTimestamp
