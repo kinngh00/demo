@@ -4,9 +4,9 @@ import lombok.Getter;
 
 @Getter
 public class GoogleAuthResponseDto {
-  private String name;
+  private final String name;
 
-  public GoogleAuthResponseDto(GoogleAuthResponseDto response) {
+  public GoogleAuthResponseDto(Auth response) {
     this.name = response.getName();
   }
 }
