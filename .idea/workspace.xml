@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f20ba0e1-0a39-4b36-b1cd-9339d0786073" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/test2/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/dto/GoogleAuthResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/test2/dto/GoogleAuthResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/entity/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/test2/entity/Auth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

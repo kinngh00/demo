@@ -24,7 +24,7 @@ public class AuthController {
     return authService.createLocal(authRequestDto);
   }
 
-  @PostMapping("/{provider:^GOOGLE&}")
+  @PostMapping("/{provider:^GOOGLE$}")
   public GoogleAuthResponseDto createGoogleMember(@PathVariable String provider, @RequestBody AuthRequestDto authRequestDto) {
     return authService.createGoogle(authRequestDto);
   }
