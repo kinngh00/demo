@@ -5,17 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f20ba0e1-0a39-4b36-b1cd-9339d0786073" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/dto/AuthRequestGoogleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/dto/AuthRequestLocalDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/dto/AuthResponseGoogleDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/dto/AuthResponseLocalDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/entity/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/entity/AuthProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/entity/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/repository/AuthRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/auth/dto/AuthRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/auth/dto/AuthResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/auth/entity/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/auth/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/auth/repository/AuthRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.3.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.3.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day1/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day1/controller/CalcController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day1/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day1/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day2/Controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day2/dto/Calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day2/dto/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/first/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/first/entity/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/first/repository/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/fourth/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/fourth/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/fourth/repository/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/second/controller/TodoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/second/entity/Todo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/second/repository/TodoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/third/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/third/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day7/third/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day8/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day8/dto/ProductRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day8/dto/ProductResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day8/dto/ProductUpdateRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day8/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day8/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/day8/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exception/dto/ErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exception/entity/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exception/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exception/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/dto/AuthGoogleRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/dto/AuthGoogleResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/dto/AuthLocalRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/dto/AuthLocalResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/entity/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/entity/AuthProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/entity/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/repository/AuthRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/exceptionTest/first/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test1/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test1/dto/ProductRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test1/dto/ProductResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test1/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test1/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test1/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/dto/AuthRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/dto/GoogleAuthResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/dto/LocalAuthResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/entity/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/entity/AuthProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/entity/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/repository/AuthRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/test2/service/AuthService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +108,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
